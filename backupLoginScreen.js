@@ -7,7 +7,7 @@ import { useNavigation } from '@react-navigation/native';
 const uri = 'https://ak.picdn.net/shutterstock/videos/1060308725/thumb/1.jpg';
 const profilePicture = 'https://randomuser.me/api/portraits/men/34.jpg';
 
-const auth = getAuth();  // Ensure that Firebase is already initialized in another file
+const auth = getAuth();  
 
 export default function LoginScreen() {
   const [email, setEmail] = useState('');
